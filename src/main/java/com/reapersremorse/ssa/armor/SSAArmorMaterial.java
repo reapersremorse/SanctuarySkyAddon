@@ -14,16 +14,8 @@ import java.util.function.Supplier;
 
 public enum SSAArmorMaterial implements IArmorMaterial {
 //ENUMNAME(name, damage factor (helm,legs,chest,boots), )
-    RUBY(
-            SanctuarySkyAddon.MOD_ID+":ruby",
-        33,
-        new int[]{5,7,8,4},
-        33,
-        SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,
-        5.0f, () -> {
-                return Ingredient.fromItems(RegistryHandler.RUBY.get());
-            }
-        );
+    RUBY(SanctuarySkyAddon.MOD_ID+":ruby", 33, new int[]{5,7,8,4}, 33,
+        SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 5.0f, () -> {return Ingredient.fromItems(RegistryHandler.RUBY.get());},0);
 
     private static final int[] MAX_DAMAGE_ARRAY = new int[]{11,16,15,13};
     private final String name;
@@ -33,6 +25,7 @@ public enum SSAArmorMaterial implements IArmorMaterial {
     private final SoundEvent soundEvent;
     private final float toughness;
     private final Supplier<Ingredient> repairMaterial;
+    private final float knockbackResistance;
 
     SSAArmorMaterial(
             String name,
@@ -41,7 +34,9 @@ public enum SSAArmorMaterial implements IArmorMaterial {
             int enchantability,
             SoundEvent soundEvent,
             float toughness,
-            Supplier<Ingredient> repairMaterial
+            Supplier<Ingredient> repairMaterial,
+            float knockbackResistance
+
     ){
         this.name = name;
         this.maxDamageFactor = maxDamageFactor;
@@ -50,6 +45,7 @@ public enum SSAArmorMaterial implements IArmorMaterial {
         this.soundEvent = soundEvent;
         this.toughness = toughness;
         this.repairMaterial = repairMaterial;
+        this.knockbackResistance = knockbackResistance;
     }
 
     @Override
@@ -90,6 +86,7 @@ public enum SSAArmorMaterial implements IArmorMaterial {
 
     @Override
     public float func_230304_f_() {
-        return 0;
+            return this.knockbackResistance;
     }
+
 }
