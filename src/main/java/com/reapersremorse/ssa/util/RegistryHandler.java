@@ -5,6 +5,7 @@ import com.reapersremorse.ssa.armor.SSAArmorMaterial;
 import com.reapersremorse.ssa.blocks.BlockItemBase;
 import com.reapersremorse.ssa.blocks.RubyBlock;
 import com.reapersremorse.ssa.items.ItemBase;
+import com.reapersremorse.ssa.items.PoisonApple;
 import com.reapersremorse.ssa.tools.SSAItemTier;
 import net.minecraft.block.Block;
 import net.minecraft.inventory.EquipmentSlotType;
@@ -29,12 +30,21 @@ public class RegistryHandler {
     //items only
     public static final RegistryObject<Item>RUBY = ITEMS.register("ruby", ItemBase::new);
 
+    //foods
+    public static final RegistryObject<PoisonApple>POISON_APPLE = ITEMS.register("poison_apple", PoisonApple::new);
+
 
     //blocks
     public static final RegistryObject<Block>RUBY_BLOCK = BLOCKS.register("ruby_block", RubyBlock::new);
+    public static final RegistryObject<Block>OVEN = BLOCKS.register("oven", RubyBlock::new);
+
+    //ores
+    public static final RegistryObject<Block>RUBY_ORE = BLOCKS.register("ruby_ore", RubyBlock::new);
 
     //blockItems
     public static final RegistryObject<Item>RUBY_BLOCK_ITEM = ITEMS.register("ruby_block", ()-> new BlockItemBase(RUBY_BLOCK.get()));
+    public static final RegistryObject<Item>RUBY_ORE_ITEM = ITEMS.register("ruby_ore", ()-> new BlockItemBase(RUBY_ORE.get()));
+    public static final RegistryObject<Item>OVEN_ITEM = ITEMS.register("oven", ()-> new BlockItemBase(OVEN.get()));
 
 
     //tools

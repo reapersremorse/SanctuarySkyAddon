@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "ssa:block/oven" },
+    "facing=south": { "model": "ssa:block/oven", "y":  180},
+    "facing=west": { "model": "ssa:block/oven", "y":  270},
+    "facing=east": { "model": "ssa:block/oven", "y":  90}
+  }
+}
