@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "ssa:block/ruby_block" }
+  }
+}
