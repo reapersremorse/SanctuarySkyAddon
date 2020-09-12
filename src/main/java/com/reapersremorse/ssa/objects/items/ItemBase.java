@@ -1,8 +1,7 @@
-package com.reapersremorse.ssa.items;
+package com.reapersremorse.ssa.objects.items;
 
 import com.reapersremorse.ssa.SanctuarySkyAddon;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
 
 public class ItemBase extends Item {
     public ItemBase() {

@@ -1,4 +1,4 @@
-package com.reapersremorse.ssa.blocks;
+package com.reapersremorse.ssa.objects.blocks;
 
 import net.minecraft.block.*;
 import net.minecraft.block.material.Material;

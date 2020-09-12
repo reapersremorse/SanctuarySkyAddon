@@ -1,4 +1,4 @@
-package com.reapersremorse.ssa.blocks;
+package com.reapersremorse.ssa.objects.blocks;
 
 import com.reapersremorse.ssa.SanctuarySkyAddon;
 import net.minecraft.block.Block;

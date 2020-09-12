@@ -1,6 +1,6 @@
-package com.reapersremorse.ssa.tools;
+package com.reapersremorse.ssa.util.enums;
 
-import com.reapersremorse.ssa.util.RegistryHandler;
+import com.reapersremorse.ssa.init.minecraftextras.item.ItemInit;
 import net.minecraft.item.IItemTier;
 import net.minecraft.item.crafting.Ingredient;
 
@@ -11,7 +11,7 @@ public enum SSAItemTier implements IItemTier {
 
     //ENUM NAME(harvest level, max uses/ effeciency/base attack damage/enchantability/repair material)
     RUBY(3, 800, 7.0F, 3.0F, 12, () -> {
-        return Ingredient.fromItems(RegistryHandler.RUBY.get());
+        return Ingredient.fromItems(ItemInit.RUBY.get());
     });
 
 

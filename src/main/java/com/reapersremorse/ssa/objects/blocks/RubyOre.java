@@ -1,4 +1,4 @@
-package com.reapersremorse.ssa.blocks;
+package com.reapersremorse.ssa.objects.blocks;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;

@@ -1,10 +1,9 @@
-package com.reapersremorse.ssa.items;
+package com.reapersremorse.ssa.objects.items;
 
 import com.reapersremorse.ssa.SanctuarySkyAddon;
 import net.minecraft.item.Food;
 import net.minecraft.item.Item;
 import net.minecraft.potion.EffectInstance;
-import net.minecraft.potion.Effects;
 
 import static net.minecraft.potion.Effects.NAUSEA;
 import static net.minecraft.potion.Effects.POISON;

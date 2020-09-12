@@ -1,7 +1,8 @@
 package com.reapersremorse.ssa.world.gen;
 
 import com.reapersremorse.ssa.SanctuarySkyAddon;
-import com.reapersremorse.ssa.util.RegistryHandler;
+import com.reapersremorse.ssa.init.minecraftextras.item.BlockInit;
+import com.reapersremorse.ssa.init.minecraftextras.item.ItemInit;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.pattern.BlockMatcher;
@@ -29,13 +30,13 @@ public class SSAOreGen {
 
             //Nether Generation
             if (biome.getCategory() == Biome.Category.NETHER) {
-                genOre(biome, 12, 5, 5, 80, OreFeatureConfig.FillerBlockType.NETHERRACK, RegistryHandler.RUBY_ORE.get().getDefaultState(), 4);
+                genOre(biome, 12, 5, 5, 80, OreFeatureConfig.FillerBlockType.NETHERRACK, BlockInit.RUBY_ORE.get().getDefaultState(), 4);
                 //End Generation
             } else if (biome.getCategory() == Biome.Category.THEEND) {
-                genOre(biome, 18, 3, 5, 80, END_STONE, RegistryHandler.RUBY_ORE.get().getDefaultState(), 12);
+                genOre(biome, 18, 3, 5, 80, END_STONE, BlockInit.RUBY_ORE.get().getDefaultState(), 12);
                 //World Generation
             } else {
-                genOre(biome, 15, 8, 5, 50, OreFeatureConfig.FillerBlockType.NATURAL_STONE, RegistryHandler.RUBY_ORE.get().getDefaultState(), 6);
+                genOre(biome, 15, 8, 5, 50, OreFeatureConfig.FillerBlockType.NATURAL_STONE, BlockInit.RUBY_ORE.get().getDefaultState(), 6);
             }
         }
     }
