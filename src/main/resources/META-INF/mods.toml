@@ -4,7 +4,7 @@ license="All rights reserved"
 issueTrackerURL="http://my.issue.tracker/" #optional
 [[mods]] #mandatory
 modId="ssa" #mandatory
-version="1.13.1-1.0.0" #mandatory
+version="1.16.1-1.0.0" #mandatory
 displayName="SanctuarySkyAddon" #mandatory
 updateJSONURL="http://myurl.me/" #optional
 displayURL="http://example.com/" #optional

@@ -15,14 +15,14 @@ public class ItemInit {
 
     //items only
     public static final RegistryObject<Item> RUBY = ITEMS.register("ruby", ItemBase::new);
-    public static final RegistryObject<Item> HOOKER = ITEMS.register("hooker",SSAFuels::new);
+    //public static final RegistryObject<Item> HOOKER = ITEMS.register("hooker",SSAFuels::new);
 
     //foods
     public static final RegistryObject<Item> TEST_ITEM = ITEMS.register("test_item",
             () -> new Item(new Item.Properties().group(SanctuarySkyAddon.TAB).food(new Food.Builder().hunger(6).saturation(1.2f).setAlwaysEdible().meat().effect(new EffectInstance(Effects.ABSORPTION, 6000, 5), 0.7f).build())));
 
 
-    public static final RegistryObject<SSAFuels> FUEL = ITEMS.register("fuel",
-            ()-> new Item(new Item.Properties().));
+    public static final RegistryObject<Item> FUEL = ITEMS.register("fuel",
+            ()->new SSAFuels(new Item.Properties().group(SanctuarySkyAddon.TAB),false,1600,"Hookers Be hookers",true));
 
 }
