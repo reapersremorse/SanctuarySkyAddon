@@ -20,8 +20,8 @@ public class PoisonApple extends Item {
                         .setAlwaysEdible()
                         //.effect(new EffectInstance(Effects.NAUSEA,100,1),0.2f)
                         //.effect(new EffectInstance(Effects.POISON,100,2),0.2f)
-                        .effect(()-> new EffectInstance(NAUSEA,100,1),0.0f)
-                        .effect(()-> new EffectInstance(POISON,100,2),0.0f)
+                        .effect(()-> new EffectInstance(NAUSEA,100,1),0.3f)
+                        .effect(()-> new EffectInstance(POISON,100,2),0.3f)
                         .build()
                 )
 
