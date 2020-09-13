@@ -1,18 +1,4 @@
 {
-  "itemGroup.ssa": "SSA",
-  "item.ssa.ruby": "Ruby",
-  "block.ssa.ruby_block": "Ruby Block",
-  "item.ssa.ruby_pickaxe": "Ruby Pickaxe",
-  "item.ssa.ruby_sword": "Ruby Sword",
-  "item.ssa.ruby_shovel": "Ruby shovel",
-  "item.ssa.ruby_axe": "Ruby Axe",
-  "item.ssa.ruby_hoe": "Ruby Hoe",
-  "item.ssa.ruby_helmet": "Ruby Helmet",
-  "item.ssa.ruby_chestplate": "Ruby Chestplate",
-  "item.ssa.ruby_leggings": "Ruby Leggings",
-  "item.ssa.ruby_boots": "Ruby Boots",
-  "item.ssa.poison_apple": "Poison Apple",
-  "block.ssa.oven": "Oven",
   "item.ssa.charkite_axe": "Charkite Axe",
   "block.ssa.voidium_block": "Block of Voidium",
   "block.ssa.sucrosite_block": "Block of Sucrosite",
@@ -81,7 +67,7 @@
   "item.ssa.moglyx_hoe": "Moglyx Hoe",
   "block.ssa.playtrium_block": "Block of Playtrium",
   "item.ssa.kretine_axe": "Kretine Axe",
-  "block.ssa.wofluoite_block": "Block of Wofluoite",
+  "block.ssa.wofluoite": "Block of Wofluoite",
   "item.ssa.haglum_armor_leggings": "Haglum Leggings",
   "item.ssa.reaperite_armor_chestplate": "Reaperite Chestplate",
   "item.ssa.playtrium_pickaxe": "Playtrium Pickaxe",
@@ -192,5 +178,6 @@
   "item.ssa.playtrium_armor_chestplate": "Playtrium Chestplate",
   "item.ssa.generite_hoe": "Generite Hoe",
   "item.ssa.kretine_armor_leggings": "Kretine Leggings",
-  "item.ssa.brokium_armor_boots": "Brokium Boots"
+  "item.ssa.brokium_armor_boots": "Brokium Boots",
+  "block.ssa.quintium_ore": "Quintium Ore"
 }

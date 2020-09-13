@@ -1,0 +1,42 @@
+{
+  "group": "ssa",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "ssa:quintium"
+    },
+    "1": {
+      "item": "ssa:quintium"
+    },
+    "2": {
+      "item": "ssa:quintium"
+    },
+    "3": {
+      "item": "ssa:quintium"
+    },
+    "4": {
+      "item": "ssa:quintium"
+    },
+    "5": {
+      "item": "ssa:quintium"
+    },
+    "6": {
+      "item": "ssa:quintium"
+    },
+    "7": {
+      "item": "ssa:quintium"
+    },
+    "8": {
+      "item": "ssa:quintium"
+    }
+  },
+  "result": {
+    "item": "ssa:quintium_block",
+    "count": 1
+  }
+}

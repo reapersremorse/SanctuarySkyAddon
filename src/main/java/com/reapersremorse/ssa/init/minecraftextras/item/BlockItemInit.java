@@ -12,8 +12,38 @@ public class BlockItemInit {
 
 
     //blockItems
-    //public static final RegistryObject<Item> RUBY_BLOCK_ITEM = BLOCKITEMS.register("ruby_block", ()-> new BlockItemBase(BlockInit.RUBY_BLOCK.get()));
-    //public static final RegistryObject<Item>RUBY_ORE_ITEM = BLOCKITEMS.register("ruby_ore", ()-> new BlockItemBase(BlockInit.RUBY_ORE.get()));
-    //public static final RegistryObject<Item>OVEN_ITEM = BLOCKITEMS.register("oven", ()-> new BlockItemBase(BlockInit.OVEN.get()));
+    public static final RegistryObject<Item> SUCROSITE_ORE = BLOCKITEMS.register("sucrosite_ore",
+            ()->new BlockItemBase(BlockInit.SUCROSITE_ORE.get()));
+    public static final RegistryObject<Item> AKRUTRIUM_ORE = BLOCKITEMS.register("akrutrium_ore",
+            ()->new BlockItemBase(BlockInit.AKRUTRIUM_ORE.get()));
+    public static final RegistryObject<Item> BROERIUM_ORE = BLOCKITEMS.register("broerium_ore",
+            ()->new BlockItemBase(BlockInit.BROERIUM_ORE.get()));
+    public static final RegistryObject<Item> BROKIUM_ORE = BLOCKITEMS.register("brokium_ore",
+            ()->new BlockItemBase(BlockInit.BROKIUM_ORE.get()));
+    public static final RegistryObject<Item> CHARKITE_ORE = BLOCKITEMS.register("charkite_ore",
+            ()->new BlockItemBase(BlockInit.CHARKITE_ORE.get()));
+    public static final RegistryObject<Item> GENERITE_ORE = BLOCKITEMS.register("generite_ore",
+            ()->new BlockItemBase(BlockInit.GENERITE_ORE.get()));
+    public static final RegistryObject<Item> HAGLUM_ORE = BLOCKITEMS.register("haglum_ore",
+            ()->new BlockItemBase(BlockInit.HAGLUM_ORE.get()));
+    public static final RegistryObject<Item> KRETINE_ORE = BLOCKITEMS.register("kretine_ore",
+            ()->new BlockItemBase(BlockInit.KRETINE_ORE.get()));
+    public static final RegistryObject<Item> MOGLYX_ORE = BLOCKITEMS.register("moglyx_ore",
+            ()->new BlockItemBase(BlockInit.MOGLYX_ORE.get()));
+    public static final RegistryObject<Item> PLAYTRIUM_ORE = BLOCKITEMS.register("playtrium_ore",
+            ()->new BlockItemBase(BlockInit.PLAYTRIUM_ORE.get()));
+    public static final RegistryObject<Item> SPIYTRIUM_ORE = BLOCKITEMS.register("spiytrium_ore",
+            ()->new BlockItemBase(BlockInit.SPIYTRIUM_ORE.get()));
+    public static final RegistryObject<Item> WOFLUOITE_ORE = BLOCKITEMS.register("wofluoite_ore",
+            ()->new BlockItemBase(BlockInit.WOFLUOITE_ORE.get()));
+    public static final RegistryObject<Item> WOULFITE_ORE = BLOCKITEMS.register("woulfite_ore",
+            ()->new BlockItemBase(BlockInit.WOULFITE_ORE.get()));
+    public static final RegistryObject<Item> QUINTIUM_ORE = BLOCKITEMS.register("quintium_ore",
+            ()->new BlockItemBase(BlockInit.QUINTIUM_ORE.get()));
+    public static final RegistryObject<Item> VOIDIUM_ORE = BLOCKITEMS.register("voidium_ore",
+            ()->new BlockItemBase(BlockInit.VOIDIUM_ORE.get()));
+    public static final RegistryObject<Item> REAPERITE_ORE = BLOCKITEMS.register("reaperite_ore",
+            ()->new BlockItemBase(BlockInit.REAPERITE_ORE.get()));
+
 
 }

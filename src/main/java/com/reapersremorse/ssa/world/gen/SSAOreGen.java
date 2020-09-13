@@ -30,13 +30,28 @@ public class SSAOreGen {
 
             //Nether Generation
             if (biome.getCategory() == Biome.Category.NETHER) {
-                genOre(biome, 12, 5, 5, 80, OreFeatureConfig.FillerBlockType.NETHERRACK, BlockInit.RUBY_ORE.get().getDefaultState(), 4);
+                //genOre(biome, 12, 5, 5, 80, OreFeatureConfig.FillerBlockType.NETHERRACK, BlockInit.RUBY_ORE.get().getDefaultState(), 4);
                 //End Generation
             } else if (biome.getCategory() == Biome.Category.THEEND) {
-                genOre(biome, 18, 3, 5, 80, END_STONE, BlockInit.RUBY_ORE.get().getDefaultState(), 12);
+                //genOre(biome, 18, 3, 5, 80, END_STONE, BlockInit.RUBY_ORE.get().getDefaultState(), 12);
                 //World Generation
             } else {
-                genOre(biome, 15, 8, 5, 50, OreFeatureConfig.FillerBlockType.NATURAL_STONE, BlockInit.RUBY_ORE.get().getDefaultState(), 6);
+                genOre(biome, 15, 8, 5, 256, OreFeatureConfig.FillerBlockType.NATURAL_STONE, BlockInit.SUCROSITE_ORE.get().getDefaultState(), 8);
+                genOre(biome, 15, 8, 0, 128, OreFeatureConfig.FillerBlockType.NATURAL_STONE, BlockInit.AKRUTRIUM_ORE.get().getDefaultState(), 8);
+                genOre(biome, 15, 8, 0, 64, OreFeatureConfig.FillerBlockType.NATURAL_STONE, BlockInit.BROERIUM_ORE.get().getDefaultState(), 7);
+                genOre(biome, 15, 8, 0, 54, OreFeatureConfig.FillerBlockType.NATURAL_STONE, BlockInit.BROKIUM_ORE.get().getDefaultState(), 7);
+                genOre(biome, 15, 8, 0, 50, OreFeatureConfig.FillerBlockType.NATURAL_STONE, BlockInit.CHARKITE_ORE.get().getDefaultState(), 6);
+                genOre(biome, 15, 8, 0, 45, OreFeatureConfig.FillerBlockType.NATURAL_STONE, BlockInit.GENERITE_ORE.get().getDefaultState(), 6);
+                genOre(biome, 15, 8, 0, 40, OreFeatureConfig.FillerBlockType.NATURAL_STONE, BlockInit.HAGLUM_ORE.get().getDefaultState(), 5);
+                genOre(biome, 15, 8, 0, 35, OreFeatureConfig.FillerBlockType.NATURAL_STONE, BlockInit.KRETINE_ORE.get().getDefaultState(), 5);
+                genOre(biome, 15, 8, 0, 30, OreFeatureConfig.FillerBlockType.NATURAL_STONE, BlockInit.MOGLYX_ORE.get().getDefaultState(), 4);
+                genOre(biome, 15, 8, 0, 25, OreFeatureConfig.FillerBlockType.NATURAL_STONE, BlockInit.PLAYTRIUM_ORE.get().getDefaultState(), 4);
+                genOre(biome, 15, 8, 0, 20, OreFeatureConfig.FillerBlockType.NATURAL_STONE, BlockInit.SPIYTRIUM_ORE.get().getDefaultState(), 3);
+                genOre(biome, 15, 8, 0, 15, OreFeatureConfig.FillerBlockType.NATURAL_STONE, BlockInit.WOFLUOITE_ORE.get().getDefaultState(), 3);
+                genOre(biome, 15, 8, 0, 10, OreFeatureConfig.FillerBlockType.NATURAL_STONE, BlockInit.WOULFITE_ORE.get().getDefaultState(), 2);
+                genOre(biome, 15, 3, 0, 8, OreFeatureConfig.FillerBlockType.NATURAL_STONE, BlockInit.QUINTIUM_ORE.get().getDefaultState(), 2);
+                genOre(biome, 15, 3, 0, 8, OreFeatureConfig.FillerBlockType.NATURAL_STONE, BlockInit.VOIDIUM_ORE.get().getDefaultState(), 1);
+                genOre(biome, 15, 3, 0, 8, OreFeatureConfig.FillerBlockType.NATURAL_STONE, BlockInit.REAPERITE_ORE.get().getDefaultState(), 1);
             }
         }
     }

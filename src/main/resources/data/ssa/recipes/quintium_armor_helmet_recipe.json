@@ -1,0 +1,29 @@
+{
+  "group": "ssa",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "ssa:quintium"
+    },
+    "1": {
+      "item": "ssa:quintium"
+    },
+    "2": {
+      "item": "ssa:quintium"
+    },
+    "3": {
+      "item": "ssa:quintium"
+    },
+    "5": {
+      "item": "ssa:quintium"
+    }
+  },
+  "result": {
+    "item": "ssa:quintium_armor_helmet",
+    "count": 1
+  }
+}

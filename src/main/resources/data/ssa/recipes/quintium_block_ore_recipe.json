@@ -1,0 +1,13 @@
+{
+  "group": "ssa",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "ssa:quintium_block"
+    }
+  ],
+  "result": {
+    "item": "ssa:quintium",
+    "count": 9
+  }
+}

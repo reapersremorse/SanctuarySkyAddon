@@ -16,16 +16,12 @@ public class SSAFuels extends Item {
     private final boolean glow;
     private final int burnTime;
     private final String toolTip;
-    private final boolean hasEffect;
 
-    public SSAFuels(Properties properties,boolean glow,int burnTime,String toolTip,boolean hasEffect) {
+    public SSAFuels(Properties properties,boolean glow,int burnTime,String toolTip) {
 
         super(properties);
-
-
         this.properties = properties;
         this.glow = glow;
-        this.hasEffect = hasEffect;
         this.burnTime = burnTime;
         this.toolTip = toolTip;
     }

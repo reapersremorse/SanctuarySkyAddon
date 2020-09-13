@@ -14,8 +14,7 @@ import java.util.function.Supplier;
 
 public enum SSAArmorMaterial implements IArmorMaterial {
 //ENUMNAME(name, damage factor (helm,legs,chest,boots), )
-    RUBY(SanctuarySkyAddon.MOD_ID+":ruby", 33, new int[]{5,7,8,4}, 33,
-        SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 5.0f, () -> {return Ingredient.fromItems(ItemInit.RUBY.get());},0);
+    RUBY(SanctuarySkyAddon.MOD_ID+":ruby", 33, new int[]{5,7,8,4}, 33, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 5.0f, () -> {return Ingredient.fromItems(ItemInit.RUBY.get());},0);
 
     private static final int[] MAX_DAMAGE_ARRAY = new int[]{11,16,15,13};
     private final String name;
