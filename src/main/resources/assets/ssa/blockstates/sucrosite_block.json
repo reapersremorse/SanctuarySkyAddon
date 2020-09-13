@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "ssa:block/sucrosite_block"
+    }
+  }
+}

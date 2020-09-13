@@ -1,0 +1,36 @@
+{
+  "group": "ssa",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "ssa:moglyx"
+    },
+    "1": {
+      "item": "ssa:moglyx"
+    },
+    "2": {
+      "item": "ssa:moglyx"
+    },
+    "3": {
+      "item": "ssa:moglyx"
+    },
+    "5": {
+      "item": "ssa:moglyx"
+    },
+    "6": {
+      "item": "ssa:moglyx"
+    },
+    "8": {
+      "item": "ssa:moglyx"
+    }
+  },
+  "result": {
+    "item": "ssa:moglyx_armor_leggings",
+    "count": 1
+  }
+}

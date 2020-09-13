@@ -1,0 +1,13 @@
+{
+  "group": "ssa",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "ssa:voidium_block"
+    }
+  ],
+  "result": {
+    "item": "ssa:voidium",
+    "count": 9
+  }
+}

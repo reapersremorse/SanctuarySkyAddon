@@ -1,0 +1,13 @@
+{
+  "group": "ssa",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "ssa:spiytrium_block"
+    }
+  ],
+  "result": {
+    "item": "ssa:spiytrium",
+    "count": 9
+  }
+}

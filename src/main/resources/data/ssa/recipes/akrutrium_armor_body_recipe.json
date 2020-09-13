@@ -1,0 +1,39 @@
+{
+  "group": "ssa",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "ssa:akrutrium"
+    },
+    "2": {
+      "item": "ssa:akrutrium"
+    },
+    "3": {
+      "item": "ssa:akrutrium"
+    },
+    "4": {
+      "item": "ssa:akrutrium"
+    },
+    "5": {
+      "item": "ssa:akrutrium"
+    },
+    "6": {
+      "item": "ssa:akrutrium"
+    },
+    "7": {
+      "item": "ssa:akrutrium"
+    },
+    "8": {
+      "item": "ssa:akrutrium"
+    }
+  },
+  "result": {
+    "item": "ssa:akrutrium_armor_chestplate",
+    "count": 1
+  }
+}

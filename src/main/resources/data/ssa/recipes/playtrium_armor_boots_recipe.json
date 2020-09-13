@@ -1,0 +1,26 @@
+{
+  "group": "ssa",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "ssa:playtrium"
+    },
+    "2": {
+      "item": "ssa:playtrium"
+    },
+    "3": {
+      "item": "ssa:playtrium"
+    },
+    "5": {
+      "item": "ssa:playtrium"
+    }
+  },
+  "result": {
+    "item": "ssa:playtrium_armor_boots",
+    "count": 1
+  }
+}

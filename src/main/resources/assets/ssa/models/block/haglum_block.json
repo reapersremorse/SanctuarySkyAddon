@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "ssa:blocks/haglum_ore_block",
+    "particle": "ssa:blocks/haglum_ore_block"
+  }
+}

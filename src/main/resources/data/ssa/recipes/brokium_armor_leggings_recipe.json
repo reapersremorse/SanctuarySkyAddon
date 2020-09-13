@@ -1,0 +1,36 @@
+{
+  "group": "ssa",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "ssa:brokium"
+    },
+    "1": {
+      "item": "ssa:brokium"
+    },
+    "2": {
+      "item": "ssa:brokium"
+    },
+    "3": {
+      "item": "ssa:brokium"
+    },
+    "5": {
+      "item": "ssa:brokium"
+    },
+    "6": {
+      "item": "ssa:brokium"
+    },
+    "8": {
+      "item": "ssa:brokium"
+    }
+  },
+  "result": {
+    "item": "ssa:brokium_armor_leggings",
+    "count": 1
+  }
+}

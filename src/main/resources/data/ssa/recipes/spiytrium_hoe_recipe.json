@@ -1,0 +1,27 @@
+{
+  "group": "ssa",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    " 3",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "ssa:spiytrium"
+    },
+    "1": {
+      "item": "ssa:spiytrium"
+    },
+    "3": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ssa:spiytrium_hoe",
+    "count": 1
+  }
+}

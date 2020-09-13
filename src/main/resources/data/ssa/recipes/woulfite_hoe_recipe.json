@@ -1,0 +1,27 @@
+{
+  "group": "ssa",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    " 3",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "ssa:woulfite"
+    },
+    "1": {
+      "item": "ssa:woulfite"
+    },
+    "3": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ssa:woulfite_hoe",
+    "count": 1
+  }
+}

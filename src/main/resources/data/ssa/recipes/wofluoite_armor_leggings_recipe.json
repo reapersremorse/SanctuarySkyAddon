@@ -1,0 +1,36 @@
+{
+  "group": "ssa",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "ssa:wofluoite"
+    },
+    "1": {
+      "item": "ssa:wofluoite"
+    },
+    "2": {
+      "item": "ssa:wofluoite"
+    },
+    "3": {
+      "item": "ssa:wofluoite"
+    },
+    "5": {
+      "item": "ssa:wofluoite"
+    },
+    "6": {
+      "item": "ssa:wofluoite"
+    },
+    "8": {
+      "item": "ssa:wofluoite"
+    }
+  },
+  "result": {
+    "item": "ssa:wofluoite_armor_leggings",
+    "count": 1
+  }
+}

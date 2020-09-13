@@ -1,0 +1,39 @@
+{
+  "group": "ssa",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "ssa:sucrosite"
+    },
+    "2": {
+      "item": "ssa:sucrosite"
+    },
+    "3": {
+      "item": "ssa:sucrosite"
+    },
+    "4": {
+      "item": "ssa:sucrosite"
+    },
+    "5": {
+      "item": "ssa:sucrosite"
+    },
+    "6": {
+      "item": "ssa:sucrosite"
+    },
+    "7": {
+      "item": "ssa:sucrosite"
+    },
+    "8": {
+      "item": "ssa:sucrosite"
+    }
+  },
+  "result": {
+    "item": "ssa:sucrosite_armor_chestplate",
+    "count": 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "group": "ssa",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "ssa:sucrosite_block"
+    }
+  ],
+  "result": {
+    "item": "ssa:sucrosite",
+    "count": 9
+  }
+}

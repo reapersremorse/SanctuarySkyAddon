@@ -1,0 +1,39 @@
+{
+  "group": "ssa",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "ssa:brokium"
+    },
+    "2": {
+      "item": "ssa:brokium"
+    },
+    "3": {
+      "item": "ssa:brokium"
+    },
+    "4": {
+      "item": "ssa:brokium"
+    },
+    "5": {
+      "item": "ssa:brokium"
+    },
+    "6": {
+      "item": "ssa:brokium"
+    },
+    "7": {
+      "item": "ssa:brokium"
+    },
+    "8": {
+      "item": "ssa:brokium"
+    }
+  },
+  "result": {
+    "item": "ssa:brokium_armor_chestplate",
+    "count": 1
+  }
+}

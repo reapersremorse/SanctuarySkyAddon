@@ -1,0 +1,13 @@
+{
+  "group": "ssa",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "ssa:brokium_block"
+    }
+  ],
+  "result": {
+    "item": "ssa:brokium",
+    "count": 9
+  }
+}

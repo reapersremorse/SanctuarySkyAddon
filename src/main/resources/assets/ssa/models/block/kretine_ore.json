@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "ssa:blocks/kretine_ore",
+    "particle": "ssa:blocks/kretine_ore"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "group": "ssa",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "ssa:reaperite_block"
+    }
+  ],
+  "result": {
+    "item": "ssa:reaperite",
+    "count": 9
+  }
+}

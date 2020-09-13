@@ -1,0 +1,29 @@
+{
+  "group": "ssa",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "ssa:reaperite"
+    },
+    "1": {
+      "item": "ssa:reaperite"
+    },
+    "2": {
+      "item": "ssa:reaperite"
+    },
+    "3": {
+      "item": "ssa:reaperite"
+    },
+    "5": {
+      "item": "ssa:reaperite"
+    }
+  },
+  "result": {
+    "item": "ssa:reaperite_armor_helmet",
+    "count": 1
+  }
+}

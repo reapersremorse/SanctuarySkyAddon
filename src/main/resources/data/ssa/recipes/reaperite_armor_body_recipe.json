@@ -1,0 +1,39 @@
+{
+  "group": "ssa",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "ssa:reaperite"
+    },
+    "2": {
+      "item": "ssa:reaperite"
+    },
+    "3": {
+      "item": "ssa:reaperite"
+    },
+    "4": {
+      "item": "ssa:reaperite"
+    },
+    "5": {
+      "item": "ssa:reaperite"
+    },
+    "6": {
+      "item": "ssa:reaperite"
+    },
+    "7": {
+      "item": "ssa:reaperite"
+    },
+    "8": {
+      "item": "ssa:reaperite"
+    }
+  },
+  "result": {
+    "item": "ssa:reaperite_armor_chestplate",
+    "count": 1
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "group": "ssa",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "ssa:haglum"
+    },
+    "2": {
+      "item": "ssa:haglum"
+    },
+    "3": {
+      "item": "ssa:haglum"
+    },
+    "5": {
+      "item": "ssa:haglum"
+    }
+  },
+  "result": {
+    "item": "ssa:haglum_armor_boots",
+    "count": 1
+  }
+}

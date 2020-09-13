@@ -1,0 +1,24 @@
+{
+  "group": "ssa",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "ssa:moglyx"
+    },
+    "1": {
+      "item": "ssa:moglyx"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ssa:moglyx_sword",
+    "count": 1
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "group": "ssa",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "ssa:woulfite"
+    },
+    "1": {
+      "item": "ssa:woulfite"
+    },
+    "2": {
+      "item": "ssa:woulfite"
+    },
+    "3": {
+      "item": "ssa:woulfite"
+    },
+    "5": {
+      "item": "ssa:woulfite"
+    },
+    "6": {
+      "item": "ssa:woulfite"
+    },
+    "8": {
+      "item": "ssa:woulfite"
+    }
+  },
+  "result": {
+    "item": "ssa:woulfite_armor_leggings",
+    "count": 1
+  }
+}

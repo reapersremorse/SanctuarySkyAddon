@@ -1,0 +1,36 @@
+{
+  "group": "ssa",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "ssa:reaperite"
+    },
+    "1": {
+      "item": "ssa:reaperite"
+    },
+    "2": {
+      "item": "ssa:reaperite"
+    },
+    "3": {
+      "item": "ssa:reaperite"
+    },
+    "5": {
+      "item": "ssa:reaperite"
+    },
+    "6": {
+      "item": "ssa:reaperite"
+    },
+    "8": {
+      "item": "ssa:reaperite"
+    }
+  },
+  "result": {
+    "item": "ssa:reaperite_armor_leggings",
+    "count": 1
+  }
+}

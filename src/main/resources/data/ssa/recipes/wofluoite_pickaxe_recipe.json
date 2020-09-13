@@ -1,0 +1,30 @@
+{
+  "group": "ssa",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "ssa:wofluoite"
+    },
+    "1": {
+      "item": "ssa:wofluoite"
+    },
+    "2": {
+      "item": "ssa:wofluoite"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ssa:wofluoite_pickaxe",
+    "count": 1
+  }
+}

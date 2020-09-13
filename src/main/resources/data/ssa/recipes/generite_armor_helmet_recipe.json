@@ -1,0 +1,29 @@
+{
+  "group": "ssa",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "ssa:generite"
+    },
+    "1": {
+      "item": "ssa:generite"
+    },
+    "2": {
+      "item": "ssa:generite"
+    },
+    "3": {
+      "item": "ssa:generite"
+    },
+    "5": {
+      "item": "ssa:generite"
+    }
+  },
+  "result": {
+    "item": "ssa:generite_armor_helmet",
+    "count": 1
+  }
+}

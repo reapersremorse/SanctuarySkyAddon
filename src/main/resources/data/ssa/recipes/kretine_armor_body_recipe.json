@@ -1,0 +1,39 @@
+{
+  "group": "ssa",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "ssa:kretine"
+    },
+    "2": {
+      "item": "ssa:kretine"
+    },
+    "3": {
+      "item": "ssa:kretine"
+    },
+    "4": {
+      "item": "ssa:kretine"
+    },
+    "5": {
+      "item": "ssa:kretine"
+    },
+    "6": {
+      "item": "ssa:kretine"
+    },
+    "7": {
+      "item": "ssa:kretine"
+    },
+    "8": {
+      "item": "ssa:kretine"
+    }
+  },
+  "result": {
+    "item": "ssa:kretine_armor_chestplate",
+    "count": 1
+  }
+}

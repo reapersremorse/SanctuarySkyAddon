@@ -1,0 +1,39 @@
+{
+  "group": "ssa",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "ssa:wofluoite"
+    },
+    "2": {
+      "item": "ssa:wofluoite"
+    },
+    "3": {
+      "item": "ssa:wofluoite"
+    },
+    "4": {
+      "item": "ssa:wofluoite"
+    },
+    "5": {
+      "item": "ssa:wofluoite"
+    },
+    "6": {
+      "item": "ssa:wofluoite"
+    },
+    "7": {
+      "item": "ssa:wofluoite"
+    },
+    "8": {
+      "item": "ssa:wofluoite"
+    }
+  },
+  "result": {
+    "item": "ssa:wofluoite_armor_chestplate",
+    "count": 1
+  }
+}

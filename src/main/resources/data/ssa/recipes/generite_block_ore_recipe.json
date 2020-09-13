@@ -1,0 +1,13 @@
+{
+  "group": "ssa",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "ssa:generite_block"
+    }
+  ],
+  "result": {
+    "item": "ssa:generite",
+    "count": 9
+  }
+}

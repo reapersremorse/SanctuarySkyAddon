@@ -1,0 +1,30 @@
+{
+  "group": "ssa",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "ssa:sucrosite"
+    },
+    "1": {
+      "item": "ssa:sucrosite"
+    },
+    "2": {
+      "item": "ssa:sucrosite"
+    },
+    "3": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ssa:sucrosite_axe",
+    "count": 1
+  }
+}

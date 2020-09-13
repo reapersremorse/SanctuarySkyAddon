@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "ssa:blocks/generite_ore",
+    "particle": "ssa:blocks/generite_ore"
+  }
+}

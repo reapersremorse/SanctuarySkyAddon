@@ -1,0 +1,26 @@
+{
+  "group": "ssa",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "ssa:kretine"
+    },
+    "2": {
+      "item": "ssa:kretine"
+    },
+    "3": {
+      "item": "ssa:kretine"
+    },
+    "5": {
+      "item": "ssa:kretine"
+    }
+  },
+  "result": {
+    "item": "ssa:kretine_armor_boots",
+    "count": 1
+  }
+}

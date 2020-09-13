@@ -1,0 +1,26 @@
+{
+  "group": "ssa",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "ssa:generite"
+    },
+    "2": {
+      "item": "ssa:generite"
+    },
+    "3": {
+      "item": "ssa:generite"
+    },
+    "5": {
+      "item": "ssa:generite"
+    }
+  },
+  "result": {
+    "item": "ssa:generite_armor_boots",
+    "count": 1
+  }
+}

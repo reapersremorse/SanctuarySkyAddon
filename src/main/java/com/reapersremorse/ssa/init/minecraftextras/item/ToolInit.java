@@ -11,15 +11,12 @@ public class ToolInit {
     public static DeferredRegister<Item> TOOLITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, SanctuarySkyAddon.MOD_ID);
 
     //tools
-    public static final RegistryObject<SwordItem> RUBY_SWORD = TOOLITEMS.register("ruby_sword",()->
-            new SwordItem(SSAItemTier.RUBY,2,0.0F,new Item.Properties().group(SanctuarySkyAddon.TAB)));
-    public static final RegistryObject<PickaxeItem> RUBY_PICKAXE = TOOLITEMS.register("ruby_pickaxe",()->
-            new PickaxeItem(SSAItemTier.RUBY,2,0.0F,new Item.Properties().group(SanctuarySkyAddon.TAB)));
-    public static final RegistryObject<AxeItem> RUBY_AXE = TOOLITEMS.register("ruby_axe",()->
-            new AxeItem(SSAItemTier.RUBY,2,0.0F,new Item.Properties().group(SanctuarySkyAddon.TAB)));
-    public static final RegistryObject<ShovelItem> RUBY_SHOVEL = TOOLITEMS.register("ruby_shovel",()->
-            new ShovelItem(SSAItemTier.RUBY,2,0.0F,new Item.Properties().group(SanctuarySkyAddon.TAB)));
-    public static final RegistryObject<HoeItem> RUBY_HOE = TOOLITEMS.register("ruby_hoe",()->
-            new HoeItem(SSAItemTier.RUBY,2,0.0F,new Item.Properties().group(SanctuarySkyAddon.TAB)));
+    //public static final RegistryObject<SwordItem> RUBY_SWORD = TOOLITEMS.register("ruby_sword",()-> new SwordItem(SSAItemTier.RUBY,2,0.0F,new Item.Properties().group(SanctuarySkyAddon.TAB)));
+    //public static final RegistryObject<PickaxeItem> RUBY_PICKAXE = TOOLITEMS.register("ruby_pickaxe",()-> new PickaxeItem(SSAItemTier.RUBY,2,0.0F,new Item.Properties().group(SanctuarySkyAddon.TAB)));
+    //public static final RegistryObject<AxeItem> RUBY_AXE = TOOLITEMS.register("ruby_axe",()-> new AxeItem(SSAItemTier.RUBY,2,0.0F,new Item.Properties().group(SanctuarySkyAddon.TAB)));
+    //public static final RegistryObject<ShovelItem> RUBY_SHOVEL = TOOLITEMS.register("ruby_shovel",()-> new ShovelItem(SSAItemTier.RUBY,2,0.0F,new Item.Properties().group(SanctuarySkyAddon.TAB)));
+    //public static final RegistryObject<HoeItem> RUBY_HOE = TOOLITEMS.register("ruby_hoe",()-> new HoeItem(SSAItemTier.RUBY,2,0.0F,new Item.Properties().group(SanctuarySkyAddon.TAB)));
+
+
 
 }

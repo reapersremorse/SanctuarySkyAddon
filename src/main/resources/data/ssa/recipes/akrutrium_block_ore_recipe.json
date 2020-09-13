@@ -1,0 +1,13 @@
+{
+  "group": "ssa",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "ssa:akrutrium_block"
+    }
+  ],
+  "result": {
+    "item": "ssa:akrutrium",
+    "count": 9
+  }
+}

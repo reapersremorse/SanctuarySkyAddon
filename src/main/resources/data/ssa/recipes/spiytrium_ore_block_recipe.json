@@ -1,0 +1,42 @@
+{
+  "group": "ssa",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "ssa:spiytrium"
+    },
+    "1": {
+      "item": "ssa:spiytrium"
+    },
+    "2": {
+      "item": "ssa:spiytrium"
+    },
+    "3": {
+      "item": "ssa:spiytrium"
+    },
+    "4": {
+      "item": "ssa:spiytrium"
+    },
+    "5": {
+      "item": "ssa:spiytrium"
+    },
+    "6": {
+      "item": "ssa:spiytrium"
+    },
+    "7": {
+      "item": "ssa:spiytrium"
+    },
+    "8": {
+      "item": "ssa:spiytrium"
+    }
+  },
+  "result": {
+    "item": "ssa:spiytrium_block",
+    "count": 1
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "group": "ssa",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "ssa:voidium"
+    },
+    "1": {
+      "item": "ssa:voidium"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ssa:voidium_sword",
+    "count": 1
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "group": "ssa",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "ssa:generite"
+    },
+    "1": {
+      "item": "ssa:generite"
+    },
+    "2": {
+      "item": "ssa:generite"
+    },
+    "3": {
+      "item": "ssa:generite"
+    },
+    "4": {
+      "item": "ssa:generite"
+    },
+    "5": {
+      "item": "ssa:generite"
+    },
+    "6": {
+      "item": "ssa:generite"
+    },
+    "7": {
+      "item": "ssa:generite"
+    },
+    "8": {
+      "item": "ssa:generite"
+    }
+  },
+  "result": {
+    "item": "ssa:generite_block",
+    "count": 1
+  }
+}

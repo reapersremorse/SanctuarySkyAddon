@@ -1,0 +1,13 @@
+{
+  "group": "ssa",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "ssa:broerium_block"
+    }
+  ],
+  "result": {
+    "item": "ssa:broerium",
+    "count": 9
+  }
+}

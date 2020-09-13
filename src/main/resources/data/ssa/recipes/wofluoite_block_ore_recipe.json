@@ -1,0 +1,13 @@
+{
+  "group": "ssa",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "ssa:wofluoite_block"
+    }
+  ],
+  "result": {
+    "item": "ssa:wofluoite",
+    "count": 9
+  }
+}

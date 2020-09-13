@@ -1,0 +1,29 @@
+{
+  "group": "ssa",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "ssa:broerium"
+    },
+    "1": {
+      "item": "ssa:broerium"
+    },
+    "2": {
+      "item": "ssa:broerium"
+    },
+    "3": {
+      "item": "ssa:broerium"
+    },
+    "5": {
+      "item": "ssa:broerium"
+    }
+  },
+  "result": {
+    "item": "ssa:broerium_armor_helmet",
+    "count": 1
+  }
+}

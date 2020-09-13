@@ -1,0 +1,30 @@
+{
+  "group": "ssa",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "ssa:charkite"
+    },
+    "1": {
+      "item": "ssa:charkite"
+    },
+    "2": {
+      "item": "ssa:charkite"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ssa:charkite_pickaxe",
+    "count": 1
+  }
+}

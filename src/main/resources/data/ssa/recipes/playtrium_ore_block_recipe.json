@@ -1,0 +1,42 @@
+{
+  "group": "ssa",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "ssa:playtrium"
+    },
+    "1": {
+      "item": "ssa:playtrium"
+    },
+    "2": {
+      "item": "ssa:playtrium"
+    },
+    "3": {
+      "item": "ssa:playtrium"
+    },
+    "4": {
+      "item": "ssa:playtrium"
+    },
+    "5": {
+      "item": "ssa:playtrium"
+    },
+    "6": {
+      "item": "ssa:playtrium"
+    },
+    "7": {
+      "item": "ssa:playtrium"
+    },
+    "8": {
+      "item": "ssa:playtrium"
+    }
+  },
+  "result": {
+    "item": "ssa:playtrium_block",
+    "count": 1
+  }
+}

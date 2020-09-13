@@ -1,0 +1,24 @@
+{
+  "group": "ssa",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "ssa:wofluoite"
+    },
+    "1": {
+      "item": "ssa:wofluoite"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ssa:wofluoite_sword",
+    "count": 1
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "ssa:blocks/sucrosite_ore_block",
+    "particle": "ssa:blocks/sucrosite_ore_block"
+  }
+}

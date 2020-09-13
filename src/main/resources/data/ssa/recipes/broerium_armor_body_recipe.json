@@ -1,0 +1,39 @@
+{
+  "group": "ssa",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "ssa:broerium"
+    },
+    "2": {
+      "item": "ssa:broerium"
+    },
+    "3": {
+      "item": "ssa:broerium"
+    },
+    "4": {
+      "item": "ssa:broerium"
+    },
+    "5": {
+      "item": "ssa:broerium"
+    },
+    "6": {
+      "item": "ssa:broerium"
+    },
+    "7": {
+      "item": "ssa:broerium"
+    },
+    "8": {
+      "item": "ssa:broerium"
+    }
+  },
+  "result": {
+    "item": "ssa:broerium_armor_chestplate",
+    "count": 1
+  }
+}

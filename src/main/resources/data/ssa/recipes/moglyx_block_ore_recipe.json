@@ -1,0 +1,13 @@
+{
+  "group": "ssa",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "ssa:moglyx_block"
+    }
+  ],
+  "result": {
+    "item": "ssa:moglyx",
+    "count": 9
+  }
+}

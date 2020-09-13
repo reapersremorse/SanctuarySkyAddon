@@ -12,7 +12,8 @@ public class BlockItemInit {
 
 
     //blockItems
-    public static final RegistryObject<Item> RUBY_BLOCK_ITEM = BLOCKITEMS.register("ruby_block", ()-> new BlockItemBase(BlockInit.RUBY_BLOCK.get()));
-    public static final RegistryObject<Item>RUBY_ORE_ITEM = BLOCKITEMS.register("ruby_ore", ()-> new BlockItemBase(BlockInit.RUBY_ORE.get()));
-    public static final RegistryObject<Item>OVEN_ITEM = BLOCKITEMS.register("oven", ()-> new BlockItemBase(BlockInit.OVEN.get()));
+    //public static final RegistryObject<Item> RUBY_BLOCK_ITEM = BLOCKITEMS.register("ruby_block", ()-> new BlockItemBase(BlockInit.RUBY_BLOCK.get()));
+    //public static final RegistryObject<Item>RUBY_ORE_ITEM = BLOCKITEMS.register("ruby_ore", ()-> new BlockItemBase(BlockInit.RUBY_ORE.get()));
+    //public static final RegistryObject<Item>OVEN_ITEM = BLOCKITEMS.register("oven", ()-> new BlockItemBase(BlockInit.OVEN.get()));
+
 }

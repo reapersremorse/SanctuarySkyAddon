@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "ssa:blocks/wofluoite_ore",
+    "particle": "ssa:blocks/wofluoite_ore"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "group": "ssa",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "ssa:haglum"
+    },
+    "2": {
+      "item": "ssa:haglum"
+    },
+    "3": {
+      "item": "ssa:haglum"
+    },
+    "4": {
+      "item": "ssa:haglum"
+    },
+    "5": {
+      "item": "ssa:haglum"
+    },
+    "6": {
+      "item": "ssa:haglum"
+    },
+    "7": {
+      "item": "ssa:haglum"
+    },
+    "8": {
+      "item": "ssa:haglum"
+    }
+  },
+  "result": {
+    "item": "ssa:haglum_armor_chestplate",
+    "count": 1
+  }
+}

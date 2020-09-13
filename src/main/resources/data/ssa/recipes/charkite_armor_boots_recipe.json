@@ -1,0 +1,26 @@
+{
+  "group": "ssa",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "ssa:charkite"
+    },
+    "2": {
+      "item": "ssa:charkite"
+    },
+    "3": {
+      "item": "ssa:charkite"
+    },
+    "5": {
+      "item": "ssa:charkite"
+    }
+  },
+  "result": {
+    "item": "ssa:charkite_armor_boots",
+    "count": 1
+  }
+}

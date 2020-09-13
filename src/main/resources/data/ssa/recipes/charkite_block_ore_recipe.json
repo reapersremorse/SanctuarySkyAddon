@@ -1,0 +1,13 @@
+{
+  "group": "ssa",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "ssa:charkite_block"
+    }
+  ],
+  "result": {
+    "item": "ssa:charkite",
+    "count": 9
+  }
+}

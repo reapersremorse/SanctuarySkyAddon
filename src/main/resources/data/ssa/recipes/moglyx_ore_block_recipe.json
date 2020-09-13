@@ -1,0 +1,42 @@
+{
+  "group": "ssa",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "ssa:moglyx"
+    },
+    "1": {
+      "item": "ssa:moglyx"
+    },
+    "2": {
+      "item": "ssa:moglyx"
+    },
+    "3": {
+      "item": "ssa:moglyx"
+    },
+    "4": {
+      "item": "ssa:moglyx"
+    },
+    "5": {
+      "item": "ssa:moglyx"
+    },
+    "6": {
+      "item": "ssa:moglyx"
+    },
+    "7": {
+      "item": "ssa:moglyx"
+    },
+    "8": {
+      "item": "ssa:moglyx"
+    }
+  },
+  "result": {
+    "item": "ssa:moglyx_block",
+    "count": 1
+  }
+}
