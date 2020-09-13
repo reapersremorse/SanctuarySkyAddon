@@ -1,7 +1,7 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "ssa:blocks/quintium_ore",
-    "particle": "ssa:blocks/quintium_ore"
+    "all": "ssa:blocks/quintium_block",
+    "particle": "ssa:blocks/quintium_block"
   }
 }
