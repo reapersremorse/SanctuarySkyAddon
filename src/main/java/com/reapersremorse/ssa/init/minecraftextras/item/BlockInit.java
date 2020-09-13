@@ -2,7 +2,7 @@ package com.reapersremorse.ssa.init.minecraftextras.item;
 
 import com.reapersremorse.ssa.SanctuarySkyAddon;
 import net.minecraft.block.Block;
-import net.minecraft.block.Blocks;
+import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraftforge.common.ToolType;
 import net.minecraftforge.fml.RegistryObject;
@@ -13,8 +13,6 @@ public class BlockInit {
     public static DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, SanctuarySkyAddon.MOD_ID);
 
 
-    //blocks
-    //public static final RegistryObject<Block> RUBY_BLOCK = BLOCKS.register("ruby_block", RubyBlock::new);
     public static final RegistryObject<Block> SUCROSITE_ORE= BLOCKS.register("sucrosite_ore",
             ()-> new Block(Block.Properties.create(Material.IRON)
                     .hardnessAndResistance(2.0f, 10.0f)
