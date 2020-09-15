@@ -3,7 +3,9 @@ package com.reapersremorse.ssa.init.minecraftextras.item;
 import com.reapersremorse.ssa.SanctuarySkyAddon;
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
+import net.minecraft.block.StairsBlock;
 import net.minecraft.block.material.Material;
+import net.minecraft.block.material.MaterialColor;
 import net.minecraftforge.common.ToolType;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
@@ -400,4 +402,7 @@ public class BlockInit {
                     .setRequiresTool()
             )
     );
+
+    public static final RegistryObject<Block> REAPERITE_STAIRS = BLOCKS.register("reaperite_stairs",
+            ()-> {return new StairsBlock(()->BlockInit.REAPERITE_ORE.get().getDefaultState(),Block.Properties.create(Material.SAND,MaterialColor.GOLD));});
 }

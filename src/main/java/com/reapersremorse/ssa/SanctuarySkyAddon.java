@@ -4,6 +4,7 @@ import com.reapersremorse.ssa.init.minecraftextras.item.*;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
@@ -19,18 +20,17 @@ public class SanctuarySkyAddon
     public static final String MOD_ID = "ssa";
 
     public SanctuarySkyAddon() {
+        IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::doClientStuff);
 
-        //minecraft extras inits
-        //blocks
-        BlockInit.BLOCKS.register(FMLJavaModLoadingContext.get().getModEventBus());
-        BlockItemInit.BLOCKITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
+        BlockInit.BLOCKS.register(modEventBus);
+        BlockItemInit.BLOCKITEMS.register(modEventBus);
         //items
-        ItemInit.ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
-        FoodInit.FOODITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
-        ArmorInit.ARMORITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
-        ToolInit.TOOLITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
+        ItemInit.ITEMS.register(modEventBus);
+        FoodInit.FOODITEMS.register(modEventBus);
+        ArmorInit.ARMORITEMS.register(modEventBus);
+        ToolInit.TOOLITEMS.register(modEventBus);
 
        MinecraftForge.EVENT_BUS.register(this);
     }
