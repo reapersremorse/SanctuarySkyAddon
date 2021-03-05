@@ -18,6 +18,12 @@ public class SanctuarySkyAddon
 {
     private static final Logger LOGGER = LogManager.getLogger();
     public static final String MOD_ID = "ssa";
+    public static final String MOD_VERSION = "1.0.0";
+    public static final String FORGE_VERSION = "net.minecraftforge:forge:1.16.1-32.0.108";
+    public static final String MAPPING = "20200707-1.16.1";
+    //public static final String JEI_VERSION = "";
+    //public static final String SILENTS_LIB_VERSION = "";
+    //public static final String
 
     public SanctuarySkyAddon() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();

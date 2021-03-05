@@ -1,0 +1,24 @@
+{
+  "group": "ssa",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "020",
+    "232",
+    "020"
+  ],
+  "key": {
+    "0": {
+      "item": "ssa:kretine_block"
+    },
+    "2": {
+      "item": "minecraft:bedrock"
+    },
+    "3": {
+      "item": "ssa:fuel"
+    }
+  },
+  "result": {
+    "item": "minecraft:name_tag",
+    "count": 64
+  }
+}
